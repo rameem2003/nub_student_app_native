@@ -1,4 +1,4 @@
-import {StatusBar, StyleSheet, Text, View} from 'react-native';
+import {StatusBar} from 'react-native';
 import React from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import {NavigationContainer} from '@react-navigation/native';
@@ -6,7 +6,6 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from './src/components/screens/Home';
 import Info from './src/components/screens/Info';
 import Students from './src/components/screens/Students';
-import Header from './src/components/common/Header';
 
 const App = () => {
   const Tab = createBottomTabNavigator();

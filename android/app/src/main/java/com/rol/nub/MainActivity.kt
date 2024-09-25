@@ -1,4 +1,4 @@
-package com.nub
+package com.rol.nub
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
