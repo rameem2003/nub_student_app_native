@@ -3,7 +3,7 @@ import React from 'react';
 
 const Title = ({title}) => {
   return (
-    <View>
+    <View className="">
       <Text className=" text-[32px] text-black font-bold">{title}</Text>
     </View>
   );
