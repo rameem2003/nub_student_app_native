@@ -78,9 +78,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.rol.nub"
+    namespace "com.rol.nubian"
     defaultConfig {
-        applicationId "com.rol.nub"
+        applicationId "com.rol.nubian"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -112,6 +112,7 @@ dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
      implementation project(':react-native-vector-icons')
+         implementation project(':lottie-react-native')
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")

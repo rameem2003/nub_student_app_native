@@ -9,17 +9,17 @@ const Details = ({route, navigation}) => {
     <View className="h-screen bg-white">
       <View className="w-full h-[250px] bg-primary rounded-b-[50px]">
         <Image
-          className="w-[120px] h-[120px] object-cover mx-auto"
+          className="w-[140px] h-[140px] object-cover mx-auto rounded-md"
           source={{
-            uri: 'https://reactnative.dev/img/tiny_logo.png',
+            uri: item.studentImage,
           }}
         />
 
         <Text className="font-semibold text-2xl text-white mt-5 text-center">
-          {item.name}
+          {item.studentNameEnglish}
         </Text>
         <Text className="font-semibold text-xl text-white mt-5 text-center">
-          Student id: {item.id}
+          Student id: {item.diplomaBoardRoll}
         </Text>
       </View>
 
@@ -38,7 +38,9 @@ const Details = ({route, navigation}) => {
               <Text className=" text-sm font-medium text-gray-500">
                 Department
               </Text>
-              <Text className=" text-base font-medium text-black">CSE</Text>
+              <Text className=" text-base font-medium text-black">
+                {item.department}
+              </Text>
             </View>
           </View>
 
@@ -90,7 +92,7 @@ const Details = ({route, navigation}) => {
                 Father's Name
               </Text>
               <Text className=" text-base font-medium text-black">
-                Father's Name
+                {item.fathersName}
               </Text>
             </View>
           </View>
@@ -101,7 +103,7 @@ const Details = ({route, navigation}) => {
                 Mother's Name
               </Text>
               <Text className=" text-base font-medium text-black">
-                Mother's Name
+                {item.mothersName}
               </Text>
             </View>
           </View>

@@ -1,4 +1,4 @@
-package com.rol.nub
+package com.rol.nubian
 import com.oblador.vectoricons.VectorIconsPackage;
 
 import android.app.Application
