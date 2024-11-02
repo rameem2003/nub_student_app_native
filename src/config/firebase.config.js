@@ -1,18 +1,20 @@
-// Import the functions you need from the SDKs you need
 import {initializeApp} from 'firebase/app';
 import {getAuth} from 'firebase/auth';
 import {getDatabase} from 'firebase/database';
+
 // TODO: Add SDKs for Firebase products that you want to use
+
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+
 const firebaseConfig = {
-  apiKey: 'AIzaSyC6nMUF7wxnubd13bpodl4lro9n0hiRFQI',
-  authDomain: 'nub-ecse-base.firebaseapp.com',
-  projectId: 'nub-ecse-base',
-  storageBucket: 'nub-ecse-base.appspot.com',
-  messagingSenderId: '937368234249',
-  appId: '1:937368234249:web:316617273e0f7797a88bd8',
+  apiKey: 'AIzaSyBYeLxOXcAgL47wlWRIpg6G_MG4S1NOEnc',
+  authDomain: 'nub-ecse-base-20a58.firebaseapp.com',
+  projectId: 'nub-ecse-base-20a58',
+  storageBucket: 'nub-ecse-base-20a58.firebasestorage.app',
+  messagingSenderId: '1016242067371',
+  appId: '1:1016242067371:web:0773d7d8570caa83f624ee',
 };
 
 // Initialize Firebase
